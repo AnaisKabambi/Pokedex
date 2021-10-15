@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>POKEDEX</h1>
+    <div class="grid-container">
+
+        <div class="grid-item item1">
+            <h2 id="name">Pokémon</h2>
+            <img src="resources/questionmark.jpg" id="img-poke" alt="image pokémon"><br>
+            <h2>Moves</h2>
+            <p id="moves"></p>
+        </div>
+
+        <div class="grid-item item2">
+            <h2>Previous evolution</h2>
+            <p id="evolution"></p>
+            <img src="resources/questionmark.jpg" id="img-evolution" alt="image evolution">
+            <h2>Abilities</h2>
+            <p id="abilities"></p>
+        </div>
+
+        <div class="grid-item item3">
+            <input type="text" id="input" placeholder="Type in a name or random number to generate a Pokémon..."><br>
+            <button type="button" class="fill" id="run">Submit</button>
+        </div>
+
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>
